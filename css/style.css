@@ -4,6 +4,7 @@
 
 body {
     box-sizing: inherit;
+    font-family: "Oswald", sans-serif;
 }
 
 .oswalduniquifier {
@@ -18,4 +19,99 @@ body {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
 
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+:root {
+    --color-black: #000;
+    --color-white: #fff;
+    --color-btn: #0057FF;
+}
+/**************************************************** Header ****************************************************/
+.header {
+    padding-top: 13px;
+    padding-bottom: 15px;
+}
+.header_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-section {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+}
+.header-logo {
+    height: 32px;
+    width: 93px;
+}
+.header-menu {
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.header-nav li {
+    padding: 1px 10px;
+    list-style-type: none;
+}
+
+.header-nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 26px;
+    color: var(--color-black);
+}
+
+.btn {
+    font-family: "Oswald", sans-serif;
+    padding: 14px 40px;
+    background-color: var(--color-btn);
+    color: var(--color-white);
+    text-transform: uppercase;
+    font-size: 14px;
+    width: 193px;
+    height: 52px;
+    border: none;
+    border-radius: 30px;
+    line-height: 24px;
+}
+.header-btn {
+}
+
+/**************************************************** Marketing_section ****************************************************/
+.marketing {
+}
+.marketing-flex {
+}
+.marketing-text {
+}
+.text-h6 {
+}
+.text-p {
+}
+.marketing-avatar__block {
+}
+.marketing-avatar {
+}
+.avatar-item {
+}
+.text-h5 {
+}
+.score {
+}
+.fa {
+}
+.fa-star-o {
+}
+.marketing-btn {
+}
+.marketing-img {
 }
