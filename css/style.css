@@ -390,3 +390,76 @@ textarea:focus {
     right: 330px;
     bottom: 92px;
 }
+
+/**************************************************** Answers_section ****************************************************/
+
+.answers {
+    padding-top: 115px;
+    padding-bottom: 49px;
+    
+}
+.answers-item {
+    display: flex;
+    gap: 120px;
+    
+}
+.answers__img {
+}
+.answers-block {
+}
+.text-h2 {
+}
+.answers-h2 {
+    margin: 0;
+    margin-bottom: 40px;
+}
+.text-p {
+}
+.answers-p {
+    font-size: 15px;
+    margin-bottom: 57px;
+}
+.answers-accordion {
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid #E7E7E7;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.accordion-item {
+    overflow: hidden;
+}
+.accordion-header {
+    padding: 30px 40px;
+    text-transform: uppercase;
+    line-height: 28px;
+    display: block;
+    background-color: var(--color-white);
+    cursor: pointer;
+    font-weight: 400;
+    transition: background-color 0.3s ease;
+}
+.accordion-header:hover {
+    background-color: #eaeaea;
+}
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding: 0 40px;
+    background-color: #F8F8F8;
+}
+.accordion-content p {
+    padding: 12px 0;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.accordion-item input {
+    display: none;
+}
+
+.accordion-item input:checked ~ .accordion-content {
+    max-height: 200px; /* Adjust if needed */
+    
+}
