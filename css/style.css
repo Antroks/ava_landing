@@ -420,13 +420,52 @@ textarea:focus {
     margin-bottom: 57px;
 }
 .answers-accordion {
-    width: 500px;
+    max-width: 500px;
     margin: 0 auto;
     border: 1px solid #E7E7E7;
     border-radius: 20px;
     overflow: hidden;
 }
-.accordion-item {
+
+.title {
+    padding: 30px 40px;
+    text-transform: uppercase;
+    line-height: 28px;
+    background-color: var(--color-white);
+    cursor: pointer;
+    font-weight: 400;
+    position: relative;  
+    list-style: none;
+}
+
+.title::-webkit-details-marker {
+    display: none;
+}
+
+.title::before {
+    content: '+';
+    color: var(--color-btn);
+    position: absolute;
+    right: 35px;
+    top: 30px;
+    font-size: 36px;
+}
+.accordion[open] > .title::before {
+    content: '▼'; 
+    font-size: 16px;
+    right: 35px;
+    top: 28px;
+}
+
+.accordion-content {
+    padding: 30px 40px;
+    font-size: 15px;
+    line-height: 1.5;
+    position: relative; 
+    font-weight: 400;
+}
+
+/* .accordion-item {
     overflow: hidden;
 }
 .accordion-header {
@@ -453,13 +492,13 @@ textarea:focus {
     padding: 12px 0;
     font-size: 15px;
     line-height: 1.5;
-}
+} */
 
-.accordion-item input {
+/* .accordion-item input {
     display: none;
-}
+} */
 
-.accordion-item input:checked ~ .accordion-content {
+/* .accordion-item input:checked ~ .accordion-content {
     max-height: 200px; /* Adjust if needed */
     
-}
+} */
