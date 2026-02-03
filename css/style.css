@@ -647,3 +647,97 @@ textarea:focus {
     font-size: 13px;
 }
 
+/**************************************************** Employees_section ****************************************************/
+.employees {
+    padding-top: 115px;
+}
+.employees-slider {
+    width: 100%;
+    overflow: hidden; /* Скрываем выходящие за границы изображения */
+    position: relative;
+}
+.employees_slides {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: 362px;
+    transition: transform 0.5s ease-in-out;
+}
+.slide {
+    display: block;
+    text-align: center;
+    height: 346px;
+    width: 380px;
+    padding: 45px 47px 41px 46px;
+    border-radius: 10px;
+    border: 1px solid #e7e7e7;
+    flex-shrink: 0;
+}
+
+ input[type="radio"] {
+    display: none;
+}
+
+.slide-p {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Roboto" sans-serif;
+    margin-bottom: 6px;
+    width: 287px;
+    text-align: center;
+}
+.avatar_employess {
+    margin-bottom: 20px;
+}
+
+.slide-h5 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    margin: 0;
+
+}
+.slide-h6 {
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: var(--color-black);
+}
+.text-h6 {
+}
+.score {
+}
+.slide-score {
+}
+.fa {
+}
+.fa-star {
+}
+#slide1:checked ~ .employees_slides { 
+    transform: translateX(0%); 
+}
+
+#slide2:checked ~ .employees_slides { 
+    transform: translateX(-65.5%); 
+}
+
+.slide-controls {
+    text-align: center; /* Размещаем точки по центру */
+    margin-top: 10px; /* Добавляем отступ сверху */
+}
+
+
+.slide-controls label {
+    display: inline-block; /* Размещаем точки в строку */
+    width: 8px; /* Размер точки */
+    height: 8px;
+    background: gray; /* Серый цвет точки */
+    border-radius: 50%; /* Делаем точки круглыми */
+    margin: 1px; /* Добавляем небольшой отступ между ними */
+    cursor: pointer; /* Делаем курсор в виде руки при наведении */
+}
+
+.employees-slider input:checked + .slide-controls label {
+    background: black;
+}
