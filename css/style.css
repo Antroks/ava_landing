@@ -35,7 +35,7 @@ body {
     --color-btn: #0057FF;
     --color-btn_orange: #FFA332;
     --color-btn_hover: #2C99FF;
-    --color-btn_hover-var: hsl(41, 94%, 51%);
+    --color-btn_hover-var: hsl(41, 97%, 64%);
     --color-star: #fcce02;
 }
 /**************************************************** Header ****************************************************/
@@ -738,6 +738,66 @@ textarea:focus {
     cursor: pointer; /* Делаем курсор в виде руки при наведении */
 }
 
-.employees-slider input:checked + .slide-controls label {
+.slide-controls label:hover {
+    background-color: red;
+}
+
+#slide1:checked ~ .slide-controls label[for="slide1"],
+#slide2:checked ~ .slide-controls label[for="slide2"] {
     background: black;
+}
+/**************************************************** Team_section ****************************************************/
+.team {
+    padding-top: 68px;
+    
+}
+.team-item {
+    padding-top: 132px;
+    height: 500px;
+    background: url(../img/IMAGE\ \(2\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+.text-h6 {
+}
+.team-h6 {
+    margin-bottom: 23px;
+}
+.text-p {
+}
+.team-p {
+    margin: 0 auto;
+    width: 776px;
+    margin-bottom: 37px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 400;
+}
+.btn {
+}
+.team-btn {
+    width: 161px;
+}
+
+/**************************************************** Brand_section ****************************************************/
+
+.brand {
+}
+.brand-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 66px;
+    align-items: center;
+    border: 1px solid #e7e7e7;
+    border-right: none;
+    border-left: none;
+    padding-top: 62px;
+    padding-bottom: 60px;
+
+}
+.brand-img {
 }
