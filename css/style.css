@@ -850,7 +850,7 @@ textarea:focus {
 .img-blogs {
 }
 .blogs-text {
-    padding-top: 20px;
+    padding-top: 20px;c
 }
 .card-h6 {
     font-size: 11px;
@@ -911,4 +911,34 @@ textarea:focus {
 .blogsNoflex .blogs-text {
     padding-left: 30px;
     padding-top: 10px;
+}
+
+/**************************************************** footer_section ****************************************************/
+
+
+.footer {
+}
+.footer-flex__upBlock {
+}
+.footer-logo {
+}
+.footer-menu {
+}
+.footer-flex__dwnBlock {
+}
+.copyright-block {
+}
+.color-block {
+}
+.cosial-block {
+}
+.fa {
+}
+.fa-facebook {
+}
+.fa-twitter {
+}
+.fa-vimeo {
+}
+.fa-pinterest-p {
 }
