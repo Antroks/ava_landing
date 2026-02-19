@@ -704,16 +704,7 @@ textarea:focus {
     margin-bottom: 10px;
     color: var(--color-black);
 }
-.text-h6 {
-}
-.score {
-}
-.slide-score {
-}
-.fa {
-}
-.fa-star {
-}
+
 #slide1:checked ~ .employees_slides { 
     transform: translateX(0%); 
 }
@@ -746,6 +737,7 @@ textarea:focus {
 #slide2:checked ~ .slide-controls label[for="slide2"] {
     background: black;
 }
+
 /**************************************************** Team_section ****************************************************/
 .team {
     padding-top: 68px;
@@ -851,7 +843,7 @@ textarea:focus {
 .img-blogs {
 }
 .blogs-text {
-    padding-top: 20px;c
+    padding-top: 20px;
 }
 .card-h6 {
     font-size: 11px;
@@ -980,7 +972,7 @@ textarea:focus {
     cursor: pointer;
     text-decoration: none;
 }
-.fa {
+.fa-social {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -992,7 +984,7 @@ textarea:focus {
     border: 1px solid #fff;
 }
 
-.fa:hover {
+.fa-social:hover {
     color: var(--color-btn_hover-var);
     border: 1px solid var(--color-btn_hover-var);
 }
